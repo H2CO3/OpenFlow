@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) 2009 Alex Fajkowski, Apparent Logic LLC
  *
  * Permission is hereby granted, free of charge, to any person
@@ -22,9 +22,10 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
+
 #import <UIKit/UIKit.h>
-#import "AFItemView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "AFItemView.h"
 
 
 @protocol AFOpenFlowViewDataSource;
@@ -79,3 +80,4 @@
 - (void)openFlowView:(AFOpenFlowView *)openFlowView requestImageForIndex:(int)index;
 - (UIImage *)defaultImage;
 @end
+
